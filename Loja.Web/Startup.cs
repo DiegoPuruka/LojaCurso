@@ -15,7 +15,7 @@ namespace Loja.Web
         {
             services.AddMvc();
         }
-
+        //add comentario
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
